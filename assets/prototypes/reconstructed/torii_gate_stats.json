@@ -1,0 +1,16 @@
+{
+  "label": "torii",
+  "triangles": 48548,
+  "vertices": 24308,
+  "watertight": false,
+  "winding_consistent": true,
+  "volume": null,
+  "has_vertex_colors": true,
+  "has_uv": false,
+  "bounds_xyz": [
+    0.4701719284057617,
+    0.8777482509613037,
+    0.9201982021331787
+  ],
+  "notes": "TripoSR default export: vertex colors, no texture atlas (bake-texture path not exercised headless)."
+}

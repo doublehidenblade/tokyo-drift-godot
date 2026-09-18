@@ -1,0 +1,16 @@
+{
+  "label": "tower",
+  "triangles": 27360,
+  "vertices": 13715,
+  "watertight": false,
+  "winding_consistent": true,
+  "volume": null,
+  "has_vertex_colors": true,
+  "has_uv": false,
+  "bounds_xyz": [
+    0.3666689991950989,
+    0.46982496976852417,
+    1.0150091052055359
+  ],
+  "notes": "TripoSR default export: vertex colors, no texture atlas (bake-texture path not exercised headless)."
+}
