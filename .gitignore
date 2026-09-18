@@ -1,0 +1,16 @@
+# Local Godot editor binary (re-downloadable, 146 MB) — not part of the project
+/godot
+
+# Godot import cache / editor state
+.godot/
+*.tmp
+
+# Downloaded third-party asset zips (see assets/prototypes/SOURCES.md for origins)
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# OS noise
+.DS_Store
+Thumbs.db

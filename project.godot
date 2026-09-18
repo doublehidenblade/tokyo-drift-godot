@@ -1,0 +1,41 @@
+; Engine configuration file.
+; Tokyo Drift Godot — neon Tokyo night arcade drift racer (Godot 4).
+
+config_version=5
+
+[application]
+
+config/name="Tokyo Drift Godot"
+config/description="Neon Tokyo night arcade drift racer. Godot 4 + store-bought asset packs. Decision 2026-09-18: Godot 4 + store packs + Android APK export."
+run/main_scene="res://scenes/main.tscn"
+boot_splash/bg_color=Color(0.02, 0.02, 0.05, 1)
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/resizable=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=4
+
+[export]
+
+; NOTE: Android export presets are configured in the Godot editor
+; (Project > Export) once the Android export templates for 4.7.x are
+; installed. Target: landscape APK, debug first, then release with
+; Craig's explicit approval before anything touches his Samsung.
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+; gl_compatibility (GLES3) is the mobile-safe renderer: no SDFGI, no
+; SSR/SSAO, no volumetric fog on device. Neon look comes from emissive
+; materials + a few real OmniLights, never postprocessing.
+textures/vram_compression/import_etc2_astc=true
+anti_aliasing/msaa_3d=2
